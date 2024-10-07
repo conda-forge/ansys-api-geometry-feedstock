@@ -26,7 +26,7 @@ requirements:
     - python >=3.7
     - grpcio >=1.44,<2.dev0
     - protobuf <6,>=3.19
-    - ansys-api-dbu ==0.3.4
+    - ansys-api-dbu ==0.3.5
 
 test:
   imports:
