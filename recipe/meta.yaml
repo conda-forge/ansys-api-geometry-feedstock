@@ -29,7 +29,6 @@ requirements:
     - protobuf <6,>=3.19
     - ansys-api-dbu ==0.3.13
 
-
 test:
   imports:
     - ansys.api.geometry
