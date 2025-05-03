@@ -1,5 +1,5 @@
 {% set name = "ansys-api-geometry" %}
-{% set version = "0.4.57" %}
+{% set version = "0.4.58" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/ansys_api_geometry-{{ version }}.tar.gz
-  sha256: 40ec77d777f4bbeb04fb1b80ab89f3040a425926faf9928b241f04a253c7ccaa
+  sha256: 2da2a77857f2ccfe91e27587c7f1315a23a34788de38a61ddc86195195f66d9d
 
 build:
   noarch: python
@@ -21,13 +21,13 @@ requirements:
     - setuptools >=42.0.0
     - wheel
     - ansys_tools_protoc_helper >=0.4.0
-    - ansys-api-dbu ==0.3.18
+    - ansys-api-dbu ==0.3.19
     - pip
   run:
     - python >={{ python_min }}
     - grpcio >=1.44,<2.dev0
     - protobuf <7,>=3.19
-    - ansys-api-dbu ==0.3.18
+    - ansys-api-dbu ==0.3.19
 
 test:
   imports:
