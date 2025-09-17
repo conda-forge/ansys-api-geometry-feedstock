@@ -1,5 +1,5 @@
 {% set name = "ansys-api-geometry" %}
-{% set version = "0.4.74" %}
+{% set version = "0.4.75" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/ansys_api_geometry-{{ version }}.tar.gz
-  sha256: 8f9d04c9c01d280fd5396a3f0315ec14164c06e9cd8c1bc35383ca2470136eaf
+  sha256: 1bd32a9a5ab216c149083657f8ae4fad7dab3340baf707afb20741dbc745e5aa
 
 build:
   noarch: python
