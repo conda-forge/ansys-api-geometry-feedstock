@@ -21,13 +21,13 @@ requirements:
     - setuptools >=42.0.0
     - wheel
     - ansys_tools_protoc_helper >=0.4.0
-    - ansys-api-dbu ==0.3.24
+    - ansys-api-dbu ==0.3.25
     - pip
   run:
     - python >={{ python_min }}
     - grpcio >=1.44,<2.dev0
     - protobuf <7,>=3.19
-    - ansys-api-dbu ==0.3.24
+    - ansys-api-dbu ==0.3.25
 
 test:
   imports:
